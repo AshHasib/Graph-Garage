@@ -54,7 +54,7 @@ int main()
 	printf("Enter the number of edges:");
 	scanf("%d",&edges);
 	printf("Enter edges:\n");
-	for(int i=1;i<edges;i++)
+	for(int i=1;i<=edges;i++)
 	{
 		scanf("%d%d",&a,&b);
 		G[a].push_back(b);
