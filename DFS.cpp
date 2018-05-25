@@ -34,7 +34,7 @@ void DFS(int u)
 
 int main()
 {
-    freopen("DFS.txt","r",stdin);
+    //freopen("DFS.txt","r",stdin);
 
     int nodes;
     int edges;
